@@ -164,24 +164,41 @@ export const aboutUs = [
 
 export const reviews = [
     {
-        text: "Peter Bradwick",
-        title: "Chris and pioneer electrical are phenomenal. I run one of the top real estate teams in Kitsap county and they are the first people I will always refer to all of my clients. I’ve been so impressed with every single interaction I’ve had with this company and wish there were 10 stars to give them.",
+        text: "G Pants",
+        title: "We had an emergency - in the middle of winter. He came right away, on his day off. Gave us a verbal estimate, got the job done A.S.A.P and under budget. Actually saved our lives. I want to adopt him. Thank you so, so much Chris. I will recommend Pioneer Electric to every and anyone who need electrical work done.",
     },
     {
-        text: "Kevin Pool",
-        title: "Quick response, estimate, and job completion of our Tesla charger!!! Thank you for your service!",
+        text: "Greg Haeffele",
+        title: "I highly recommend Pioneer Electrical for your electrical work. Chris and Dillon quickly and expertly rewired my woodshop to add a sub panel and all of the circuits needed for my equipment, even ensuring future growth was available. Courteous and respectful, they answered and, more importantly, asked all the right questions to ensure the job was done exactly as needed. Great communications from initial site visit/pricing through final closeout/cleanup.",
     },
     {
-        text: "Mom and Skips",
-        title: "Very professional! Excellent work all done in a timely fashion. I will definitely call these guys again!!!",
+        text: "Robert Pry",
+        title: "As manager of Silverdale Meineke Car Care our sign had been out over a year with one phone call these guys were out that week and our sign was fixed soon after in the rain, around our customers and Chris and his guy stayed until it was done. Great work guys will definitely recommend.",
     },
     {
-        text: "Robert",
-        title: "I've known Sean for over 10 years he has wired a few jobs for me in montana and would totally trust his skills. Thank you for doing a clean and traceable job.",
+        text: "Mary Lou Teske",
+        title: "Unbelievable customer service along side knowledgeable and efficient work. Our HVAC was not running heat. Called Pioneer after 5pm & Chris slid us in the same day, at the end of a long work day for him. Dark and rain and flashlights ... problem fixed while there. Will be hiring him again for another job.\
+        I failed to mention, he called back the next day to check that all was okay. \n \
+        Recommend highly - without reservations.\n \
+        Mary Lou Teske\n \
+        Bainbridge homeowner \n \
+        12/23/2023",
     },
     {
-        text: "Des Tibbs",
-        title: "Friendly, professional and most importantly the job was done quickly and correctly.",
+        text: "scott tracy",
+        title: "Chris did a great job of planning the project, communicating status throughout and delivering as promised at the end. He’s professional, easy to work with and keeps his commitments. I won’t hesitate to do more projects with him in the future - highly recommend.",
+    },
+    {
+        text: "santaluces01",
+        title: "Hands down the best interaction I’ve ever had with an electrictian. Chris came the same day I called with some issues I was having around the house for several months and showed up an hour early. He worked on our house the following night and early next morning until he found the issue and fixed it. Chris is absolutely amazing and priced more than fair. We would recommend him to anyone in the area. 10/10 dedicated professional! ",
+    },
+    {
+        text: "Katie Gallegos",
+        title: "Pioneer is a wonderful small business to work with. They helped us with a whole home rewire on an old house we purchased. There ended up being a lot of unique features that required creativity and troubleshooting on their part, and which they handled expertly. The team kept us informed of status, timelines, and took the time to explain things to us. They were respectful, clean, organized, and communicated very well. Their pricing was also very reasonable. I highly recommend Pioneer to anyone for their electrical needs.",
+    },
+    {
+        text: "Peter Bradrick",
+        title: "Chris and Pioneer Electrical are phenomenal. I run one of the top real estate teams in Kitsap county and they are the first people I will always refer to all of my clients. I’ve been so impressed with every single interaction I’ve had with this company and wish there were 10 stars to give them.",
     },
     // {
     //     text: "Mike Smith",

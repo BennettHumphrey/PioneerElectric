@@ -14,7 +14,7 @@ const Reviews = () => {
   }
 
   return (
-    <div className='pb-8 bg-main' >
+    <div className='pb-8 bg-main whitespace-pre-wrap' >
       <h2 className='text-center text-2xl m-8 mt-0 pt-14' >
       Reviews
       </h2>

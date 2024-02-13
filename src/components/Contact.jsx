@@ -35,9 +35,7 @@ const Contact = () => {
                 <div className='flex flex-col justify-center gap-y-2 text-center mb-16'>
                     <h3 className='underline mt-2 mb-4' >Where to find us</h3>
                     <h4>Phone</h4>
-                    {/* <p>Office: 250-555-5555</p>
-                    <p>Cell: 250-555-5556</p> */}
-                    <p>Cell: {contactInfo.phone}</p>
+                    <p>{contactInfo.phone}</p>
                     <h4>Email</h4>
                     <p>{contactInfo.email}</p>
                     <h3 className='underline mt-2' >Hours of Operation</h3>
