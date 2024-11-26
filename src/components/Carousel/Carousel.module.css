@@ -87,6 +87,11 @@
       height: 80vw;
     }
     
+    .overlay {
+      top: 20%;
+      gap: 6vw;
+    }
+
     .text {
       font-size: 3.1vw;
     }

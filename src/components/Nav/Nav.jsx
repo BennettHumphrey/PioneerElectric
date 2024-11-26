@@ -13,8 +13,9 @@ const Nav = () => {
     <div className='sticky top-[-144.5px] z-[100]' >
         <div className='flex flex-col items-center bg-black' >
             <img src="./company-logo-large.webp"
-              className='px-4 pb-2 h-[96px] w-[300px] bg-black' />
-            <h1 className='text-2xl p-2 bg-accent text-text-light w-full text-center' >
+              className='px-4 pb-2 h-[96px] w-[300px] bg-black' 
+              alt='Company logo' />
+            <h1 className='text-2xl p-2 bg-company text-text-light w-full text-center' >
               Call us! {contactInfo.phone}
             </h1>
         </div>

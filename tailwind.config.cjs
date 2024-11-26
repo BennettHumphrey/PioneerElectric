@@ -15,10 +15,11 @@ module.exports = {
       extend: {
         colors: {
           'main': 'hsla(10, 0%, 95%, 1)',
-          'accent': '#ffaa06',
+          'accent': '#d4811a',
+          'company': '#f7941d',
           // Logo colour
           // 'accent': '#f7941d',
-          'contact': 'red',
+          'contact': '#ee0000',
           'menu': '#123196',
           'text': '#333645',
           'text-light': 'white',

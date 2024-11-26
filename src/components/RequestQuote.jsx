@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const RequestQuote = () => {
   return (
-    <div className="request-quote bg-accent text-text-light text-center flex 
+    <div className="request-quote bg-company text-text-light text-center flex 
                     flex-col items-center pb-8">
       <h2 className="pt-8 mx-1 mb-8 text-xl">Trusted Electricians, Home Advisor Approved</h2>
       <Link to="../PioneerElectrical/contact">
