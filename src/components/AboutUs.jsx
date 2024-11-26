@@ -24,7 +24,7 @@ const AboutUs = () => {
               {aboutUsMain.text}
             </p>
               <section className="flex flex-col gap-8 pb-20
-                                          xsm:max-w-[450px] xsm:mx-auto
+                                          xsm:max-w-[1200px] xsm:mx-auto
                                           lg:flex-row lg:justify-around lg:my-0 lg:mx-auto">
             {aboutUs.map((data, i) => (
                 <Link key={i} className="group" to={data.href}>
@@ -41,7 +41,7 @@ const AboutUs = () => {
                     {data.svg}
                     <h3 className={checkEven(i) ? "":" text-text-light"} >{data.title}</h3>
                     <p className={"font-medium pt-2 pb-4 mb-12 mt-10 mx-4 px-4 text-base\
-                                  sm:max-2-[450px] sm:flex sm:mx-auto" + 
+                                  sm:max-2-[1200px] sm:flex sm:mx-auto" + 
                                   (checkEven(i) ? "":" text-text-light")} >
                         {data.text}
                     </p>
