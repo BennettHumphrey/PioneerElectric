@@ -6,7 +6,7 @@ const AboutUs = () => {
   
   const checkEven = num => num % 2 == 0
 
-  console.log(`url base: ${import.meta.env.BASE_URL}`)
+  // console.log(`url base: ${import.meta.env.BASE_URL}`)
 
 
   return (

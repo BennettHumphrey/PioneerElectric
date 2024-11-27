@@ -7,10 +7,10 @@ const useScroll = () => {
 
     const handleScroll = () => {
       if (window.scrollY > 90) {
-        console.log('handleScroll true')
+        // console.log('handleScroll true')
         return setScrolled(true);
       }
-      console.log('handleScroll false')
+      // console.log('handleScroll false')
       return setScrolled(false)
     }
 

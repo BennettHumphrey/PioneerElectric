@@ -5,7 +5,7 @@ import projectCarousel from '../Carousel/ProjectCarousel.module.css'
 const Modal = ( { setModalOpen, data } ) => {
 
 
-    console.log(JSON.stringify(data))
+    // console.log(JSON.stringify(data))
 
     const carouselOptions = {
         autoplay: true,

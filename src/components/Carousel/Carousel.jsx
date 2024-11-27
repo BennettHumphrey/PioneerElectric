@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { FaBolt } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { useWindowWidth } from '../useWindowWidth';
 
 //Import styles from parent
 
 const Carousel = ({ data, options, styles }) => {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   const [slideCounter, setSlideCounter] = useState(0);
+  const width = useWindowWidth();
 
     useEffect(() => {
         if(options.autoplay) {
@@ -79,7 +81,7 @@ const Carousel = ({ data, options, styles }) => {
             index === activeSlideIndex ? styles.slidesActive : styles.slidesInactive
           }`}
         >
-          {options.img && <img className={`${styles.img}`} alt={slide.title} src={slide.img} />}
+          {options.img && <img className={`${styles.img}`} alt={slide.title} src={width < 550 ? slide.img.sm : width < 800 ? slide.img.md : slide.img.lg} />}
           <div className={`${styles.overlay}`}>
             <div className={`${styles.icon}`} >
               {slide.svg}

@@ -23,14 +23,14 @@ const Wrapper = ({children}) => {
       <Wrapper>
 
         <Routes>
-          <Route path="/PioneerElectrical/" element={<Home/>} />
-          <Route path="/PioneerElectrical/projects" element={<Projects/>} />
-          <Route path="/PioneerElectrical/residential" element={<SubPage data={subPages.residential} />} />
-          <Route path="/PioneerElectrical/commercial" element={<SubPage data={subPages.commercial} />} />
-          <Route path="/PioneerElectrical/industrial" element={<SubPage data={subPages.industrial} />} />
-          <Route path="/PioneerElectrical/government" element={<SubPage data={subPages.government} />} />
-          <Route path="/PioneerElectrical/contact" element={<Contact />} />
-          <Route path="/PioneerElectrical/projects" element={<Projects />} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/residential" element={<SubPage data={subPages.residential} />} />
+          <Route path="/commercial" element={<SubPage data={subPages.commercial} />} />
+          <Route path="/industrial" element={<SubPage data={subPages.industrial} />} />
+          <Route path="/government" element={<SubPage data={subPages.government} />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
 
       </Wrapper>
